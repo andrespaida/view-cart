@@ -1,9 +1,9 @@
-name: Deploy view-cart to EC2 (qa)
+name: Deploy view-cart to EC2 (main)
 
 on:
   push:
     branches:
-      - qa
+      - main
 
 jobs:
   deploy:
